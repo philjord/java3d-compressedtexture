@@ -9,7 +9,6 @@ import org.jogamp.java3d.Texture;
 import org.jogamp.java3d.Texture2D;
 import org.jogamp.java3d.TextureUnitState;
 
-import tools.WeakValueHashMap;
 import tools.io.FastByteArrayInputStream;
 
 /**
