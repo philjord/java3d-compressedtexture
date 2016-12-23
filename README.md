@@ -35,4 +35,12 @@ https://github.com/hharrison/java3d-core/releases
 
 JoglPipeline class updateTexture2DImage method to support the compressed textures without having to use shaders, though I'd suggest using the Gl2es2pipeline in 1.7.0 as it's much faster.
 
+
+TextureRetained complains incorrectly about mip map levels; if you use a mipmapped compressed file (like most dds) that doesn't bother with the last single pixel high or wide mip maps
+
+see here for what needs to be changed, it is very simple
+https://jogamp.org/bugzilla/show_bug.cgi?id=1332
+
+
+
 Finally, note this project contains un-attributed source code from other projects so please don't use it anywhere near a GPL project :) .
