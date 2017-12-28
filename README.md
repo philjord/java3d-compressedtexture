@@ -1,5 +1,10 @@
 # java3d-compressedtexture
 
+This repo needs to be deleted at some point soon
+
+All of this code now exists in java3d-core-and or java3d-utils-and
+
+
 Some draft instructions to make this run
 
 The classpath in the repo won't work straight from a clone it relies on non public projects.
